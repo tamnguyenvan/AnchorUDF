@@ -52,7 +52,7 @@ if __name__ == '__main__':
     )
     parser.add_argument('--dataroot', type=str)
     parser.add_argument('--sigma', type=float)
-    parser.add_argument('--point_num', type=float)
+    parser.add_argument('--point_num', type=int)
 
     args = parser.parse_args()
 
